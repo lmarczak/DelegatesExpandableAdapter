@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 .withContext(MainActivity.this)
                 .withRecyclerView(recyclerView)
                 .withSavedInstanceState(savedInstanceState)
-                .build(null);
+                .build();
 
 
 //            }
