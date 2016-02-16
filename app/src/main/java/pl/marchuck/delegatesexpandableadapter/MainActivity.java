@@ -29,10 +29,6 @@ import pl.marchuck.delegatesexpandableadapter.model.parent.BlueHusky;
 import pl.marchuck.delegatesexpandableadapter.model.parent.PurpleSOI;
 import pl.marchuck.delegatesexpandableadapter.model.parent.YellowYork;
 import pl.marchuck.delegatesexpandableadapter.utils.ExpandableBuilder;
-import rx.Observable;
-import rx.Subscriber;
-import rx.functions.Action1;
-import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -113,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
                 .withContext(MainActivity.this)
                 .withRecyclerView(recyclerView)
                 .withSavedInstanceState(savedInstanceState)
-                .build();
+                .build(null);
 
 
 //            }
